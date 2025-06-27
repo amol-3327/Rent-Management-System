@@ -1,5 +1,4 @@
-![alt text](https://github.com/amol-3327/Rent-Management-System/blob/master/IMG_20250627_212340.jpg?raw=true)
-![alt text](https://github.com/amol-3327/Rent-Management-System/blob/master/Screenshot_2025-06-27-20-27-49-703_com.example.rentmgmt1.jpg?raw=true)
+![alt text](https://github.com/amol-3327/Rent-Management-System/blob/master/IMG_20250627_212340.jpg?raw=true) ![alt text](https://github.com/amol-3327/Rent-Management-System/blob/master/Screenshot_2025-06-27-20-27-49-703_com.example.rentmgmt1.jpg?raw=true)
 ![alt text](https://github.com/amol-3327/Rent-Management-System/blob/master/Screenshot_2025-06-27-20-29-03-285_com.example.rentmgmt1.jpg?raw=true)
 ![alt text](https://github.com/amol-3327/Rent-Management-System/blob/master/Screenshot_2025-06-27-20-29-58-509_com.example.rentmgmt1.jpg?raw=true)
 ![alt text](https://github.com/amol-3327/Rent-Management-System/blob/master/Screenshot_2025-06-27-20-31-06-963_com.example.rentmgmt1.jpg?raw=true)
