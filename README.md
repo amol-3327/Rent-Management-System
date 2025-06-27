@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/34601551/128626539-cba1bb01-b436-4e84-8414-556ffebd30a3.jpg" width="200" />
   <img src="https://github.com/amol-3327/Rent-Management-System/blob/master/IMG_20250627_212340.jpg?raw=true" width="200" />
   <img src="https://github.com/amol-3327/Rent-Management-System/blob/master/Screenshot_2025-06-27-20-27-49-703_com.example.rentmgmt1.jpg?raw=true" width="200" />
   <img src="https://github.com/amol-3327/Rent-Management-System/blob/master/Screenshot_2025-06-27-20-29-03-285_com.example.rentmgmt1.jpg?raw=true" width="200" />
