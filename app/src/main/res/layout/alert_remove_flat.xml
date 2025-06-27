@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:pp="http://schemas.android.com/tools"
+    app:cardBackgroundColor="#80CBC4"
+    android:fitsSystemWindows="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="Remove Flat: "
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="6dp"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    android:text="Select flat to remove: "
+                    android:textColor="#D6000000"
+                    android:textSize="15dp" />
+
+                <Spinner
+                    android:id="@+id/spin_flat"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="19dp"
+                    android:background="@drawable/spinner_arrow_background"
+                    android:paddingLeft="15dp"
+                    android:spinnerMode="dropdown"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="19dp"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/b_cancel"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dp"
+                        android:layout_weight="1"
+                        android:text="Cancel"
+                        app:cornerRadius="10dp"
+                        android:backgroundTint="#5A0026FF"
+                        android:textColor="@color/white"
+                        android:textSize="21sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/b_update"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dp"
+                        android:layout_weight="1"
+                        android:text="Delete"
+                        app:cornerRadius="10dp"
+                        android:backgroundTint="#5A0026FF"
+                        android:textColor="@color/white"
+                        android:textSize="21sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

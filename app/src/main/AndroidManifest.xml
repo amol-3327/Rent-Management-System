@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RentMGMT1"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".history.rent_deposit_history"
+            android:exported="false"
+            android:parentActivityName=".history.rentals_h" />
+        <activity
+            android:name=".history.rental_h_details"
+            android:exported="false"
+            android:parentActivityName=".history.rentals_h" />
+        <activity
+            android:name=".history.rentals_h"
+            android:exported="false"
+            android:parentActivityName=".dashboard" />
+        <activity
+            android:name=".history.booking_h"
+            android:exported="false"
+            android:parentActivityName=".dashboard" />
+        <activity
+            android:name=".add_new_flat"
+            android:exported="false"
+            android:parentActivityName=".flats" />
+        <activity
+            android:name=".rent_history"
+            android:exported="false"
+            android:parentActivityName=".flat_details" />
+        <activity
+            android:name=".deposit_history"
+            android:exported="false"
+            android:parentActivityName=".flat_details" />
+        <activity
+            android:name=".flat_details"
+            android:exported="false"
+            android:parentActivityName=".flats" />
+        <activity
+            android:name=".confirm_booking"
+            android:exported="false"
+            android:parentActivityName=".bookings" />
+        <activity
+            android:name=".new_booking"
+            android:exported="false"
+            android:parentActivityName=".bookings" />
+        <activity
+            android:name=".payments"
+            android:exported="false"
+            android:parentActivityName=".dashboard" />
+        <activity
+            android:name=".deposits"
+            android:exported="false" />
+        <activity
+            android:name=".bookings"
+            android:exported="false"
+            android:parentActivityName=".dashboard" />
+        <activity
+            android:name=".rentals"
+            android:exported="false"
+            android:parentActivityName=".dashboard" />
+        <activity
+            android:name=".meters"
+            android:exported="false"
+            android:parentActivityName=".dashboard" />
+        <activity
+            android:name=".flats"
+            android:exported="false"
+            android:parentActivityName=".dashboard" />
+        <activity
+            android:name=".a_forgot_pass"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".admin_login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
